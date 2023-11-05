@@ -9,6 +9,8 @@
   --white-color: #ffffff;
   --black-color: rgba(255, 255, 255, 0);
   --active-color: #d44325;
+
+  --button-fw : 600;
 }
 
 .btn {
@@ -21,7 +23,7 @@
   border: none;
   transition: all 0.2s ease-in-out;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: var(--button-fw);
 }
 
 .btn-outline{
@@ -33,7 +35,7 @@
     padding: 0.5rem 1.5rem;
     cursor: pointer;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight:var(--button-fw)
     transition: all 0.2s ease-in-out;
 }
 
