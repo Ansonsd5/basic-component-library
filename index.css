@@ -9,7 +9,7 @@
   --white-color: #ffffff;
   --black-color: #ffffff00;
   --active-color: #d44326;
-  --transperent-color: #ffffff00;
+  --transparent-color: #ffffff00;
 
   --button-fw: 600;
 }
@@ -25,16 +25,11 @@
   transition: all 0.2s ease-in-out;
   border: none;
   text-align: center;
-}
-
-
-
-.btn:active,
-.btn-outline:active {
-  background: var(--active-color) !important;
-}
-.btn {
   background: var(--primary-color);
+}
+
+.btn:active {
+  background: var(--active-color) !important;
 }
 
 .btn-outline {
@@ -50,8 +45,7 @@
   background: var(--primary-color);
 }
 
-.btn:disabled,
-.btn-outline:disabled {
+.btn:disabled {
   background-color: var(--secondary-color) !important;
   cursor: default;
   opacity: 0.4;

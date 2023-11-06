@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #ff5c35;
+  --secondary-color: #ffcec2;
+  --background-color: #0b8484;
+  --text-color: #2e475d;
+  --error-color: #b50001;
+  --focus-color: #00d0e480;
+  --shadow-color: #2133431f;
+  --white-color: #ffffff;
+  --black-color: #ffffff00;
+  --active-color: #d44326;
+  --transperent-color: #ffffff00;
+
+  --button-fw: 600;
+}
+
+.btb-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summary {
+  color: var(--text-color);
+}
+
+.summary::marker {
+  color: var(--primary-color) !important;
+}
