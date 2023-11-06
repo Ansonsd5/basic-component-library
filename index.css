@@ -9,6 +9,7 @@
   --white-color: #ffffff;
   --black-color: #ffffff00;
   --active-color: #d44326;
+  --transperent-color: #ffffff00;
 
   --button-fw: 600;
 }
@@ -23,33 +24,37 @@
   line-height: 1.2;
   font-weight: var(--button-fw);
   transition: all 0.2s ease-in-out;
+  border: none;
+  text-align: center;
 }
 
+.btn:active,
+.btn-outline:active {
+  background: var(--active-color) !important;
+}
 .btn {
-  background-color: var(--primary-color);
-  border: none;
+  background: var(--primary-color);
 }
 
 .btn-outline {
-  background-color: var(--secondary-color);
   border: 1px solid var(--primary-color);
 }
 
-button[class*="btn"]:active {
-  background-color: var(--active-color);
-  color: var(--text-color);
-}
-
 .btn:hover {
-  background-color: var(--secondary-color);
+  background: var(--secondary-color);
 }
 
 .btn-outline:hover {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
 }
 
-button[class*="btn"]:disabled {
-  background: var(--secondary-color);
-  opacity: 0.4;
+.btn:disabled,
+.btn-outline:disabled {
+  background-color: var(--secondary-color) !important;
   cursor: default;
+  opacity: 0.4;
+}
+
+.btn-white-text {
+  color: var(--white-color) !important;
 }
