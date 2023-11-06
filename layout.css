@@ -1,0 +1,15 @@
+@import './index.css';
+
+.btb-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summary {
+  color: var(--text-color);
+}
+
+.summary::marker {
+  color: var(--primary-color) !important;
+}
