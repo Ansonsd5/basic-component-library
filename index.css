@@ -15,8 +15,8 @@
   --transparent-color: #ffffff00;
   --faded-white-color: #ced4da64;
   --placeholder-color: #b5b5b5;
-  --success-color: rgb(151, 234, 131);
-  --black-with-lowopacity: rgba(0, 0, 0, 0.25);
+  --success-color: #97ea83;
+  --black-with-lowopacity: #00000040;
   --focus-color: #00d0e480;
   --shadow-color: #2133431f;
   --white-color: #ffffff;
@@ -38,7 +38,7 @@
   --half-rem-padding: 0.5rem;
   --nav-link-x-padding: 1rem;
   --button-fw: 600;
-  --alert-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --alert-box-shadow: 0 0.125rem 0.25rem #00000013;
   --nav-link-padding: var(--half-rem-padding) var(--nav-link-x-padding);
 }
 
