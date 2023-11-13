@@ -1,5 +1,9 @@
 @import './index.css';
 
+:root{
+  --half-rem-padding : 0.5rem;
+}
+
 .btb-container {
   display: flex;
   flex-direction: column;
