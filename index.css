@@ -140,12 +140,6 @@ textarea {
   color: var(--white-color) !important;
 }
 
-.form {
-  padding: var(--uniform-padding);
-  border: 1px solid var(--shadow-color);
-  border-radius: var(--uniform-padding);
-}
-
 .form-label {
   margin-bottom: 0.5rem;
   display: block;

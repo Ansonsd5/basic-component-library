@@ -22,6 +22,9 @@
   display: inline-flex;
   flex-direction: column;
   gap: 8px;
+  padding: var(--uniform-padding);
+  border: 1px solid var(--shadow-color);
+  border-radius: var(--uniform-padding);
 }
 
 section{
