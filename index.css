@@ -238,7 +238,8 @@ textarea {
 .form-check-input {
   width: 1em;
   height: 1em;
-  vertical-align: top;
+  vertical-align: middle;
+  margin-right: 6px;
   background-color: var(--white-color);
   background-repeat: no-repeat;
   background-position: center;
