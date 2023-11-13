@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./layout.css" />
   </head>
   <body>
+
+    <h2>Buttons</h2>
+
     <details>
       <summary class="summary">Check all the button variants</summary>
       <div class="btb-container">
@@ -18,5 +21,220 @@
         <button class="btn btn-outline" disabled>Disabled</button>
       </div>
     </details>
+
+<section >
+  <h2>Form</h2>
+    <form class="form-flex">
+      <div>
+        <label class="form-label">Name</label>
+        <input class="form-control" placeholder="Enter your name" />
+      </div>
+
+      <div>
+        <label class="form-label">Age</label>
+        <input class="form-control" disabled placeholder="Enter your age" />
+      </div>
+
+      <div>
+        <label class="form-label">Email</label>
+        <input
+          class="form-control"
+          type="email"
+          placeholder="Enter your emial"
+        />
+      </div>
+
+      <div>
+        <label class="form-label" for="password">Password</label>
+        <input class="form-control" type="password" />
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" />
+        <label class="form-label">Do you like Css</label>
+      </div>
+
+      <div>
+        <label class="form-label">Message for Us</label>
+        <textarea class="form-control"></textarea>
+      </div>
+
+      <div>
+        <select class="form-select" disabled>
+          <option selected>Select your state</option>
+          <option value="1">Panjab</option>
+          <option value="2">Goa</option>
+          <option value="3">Karnataka</option>
+        </select>
+      </div>
+
+      <div>
+        <select class="form-select">
+          <option selected>Please select your state</option>
+          <option value="1">Punjab</option>
+          <option value="2">Goa</option>
+          <option value="3">Karnataka</option>
+        </select>
+      </div>
+
+      <div>
+        <input class="form-control" type="file" />
+      </div>
+
+        <label
+          ><input
+            class="form-check-input"
+            type="radio"
+            for="yes"
+            name="yesorno"
+          />Yes</label
+        >
+        <label
+          ><input
+            class="form-check-input"
+            type="radio"
+            for="no"
+            name="yesorno"
+          />No</label
+        >
+      </div>
+      <div class="border">
+        <label>Example Range</label>
+        <input class="form-range" type="range" />
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+  </section>
+
+      <section>
+      <h2>Cards</h2>
+      <div class="card">
+        <h5 class="card-header">Card Header</h5>
+        <div class="card-body">
+          <h5 class="card-title">Primary card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+        <h5 class="card-footer">Footer</h5>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <svg
+          class="card-img-top"
+          width="100%"
+          height="180"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image cap"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+        </svg>
+
+        <div class="card-body">
+          <h5 class="card-tittle">Primary card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <h5 class="card-header">List header</h5>
+        <div class="card-body">
+          <h5 class="card-tittle">List items</h5>
+          this will be the body of card
+        </div>
+        <ul class="list-group list-group-wrapper">
+          <li class="card-list-item">
+            I am that needs to use many fonts in a variety
+          </li>
+          <li class="card-list-item">
+            I am part of a large organization fonts in a variety
+          </li>
+          <li class="card-list-item">
+            Am part of a large organization that needs to use many
+          </li>
+          <li class="card-list-item">I fonts in a variety</li>
+        </ul>
+      </div>
+    </section>
+
+    <h2>Navigation menu <small>horizontal</small></h2>
+    <section>
+      <nav class="nav nav-with-bg">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link disabled" aria-disabled="true">About</a>
+      </nav>
+    </section>
+    <hr />
+    <section>
+      <nav class="nav justify-content-end">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link disabled" aria-disabled="true">About</a>
+      </nav>
+    </section>
+    <hr />
+    <section>
+      <nav class="nav justify-content-center">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link disabled" aria-disabled="true">About</a>
+      </nav>
+    </section>
+    <h2>Navigation menu <small>vertical</small></h2>
+    <section>
+      <nav class="nav nav-col flex-direction-column">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link disabled" aria-disabled="true">About</a>
+      </nav>
+    </section>
+    <section class="alert-wrapper">
+      <h2>Alerts</h2>
+      <div class="alert alert-primary alert-dismissible" role="alert">
+        A simple primary alert—check it out!
+        <button class="btn-close"></button>
+      </div>
+      <div class="alert alert-secondary" role="alert ">
+        A simple primary alert—check it out!
+      </div>
+      <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+      </div>
+      <div class="alert alert-info" role="alert">
+        A simple danger
+        <a href="#" class="alert-link">an example link</a> alert—check it out!
+      </div>
+      <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div>
+      <div class="alert alert-danger alert-dismissible" role="alert">
+        A simple warning alert—check it out!<button class="btn-close"></button>
+      </div>
+      <div class="alert alert-orange" role="alert">
+        A simple oragnge alert—check it out!
+      </div>
+      <div class="alert alert-purple" role="alert">
+        A simple purple alert—check it out!
+      </div>
+    </section>
+    <hr />
   </body>
 </html>
