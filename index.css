@@ -36,10 +36,8 @@
   --card-border-color: #0000002d;
   --button-fw: 600;
   --half-rem-padding: 0.5rem;
-  --nav-link-x-padding: 1rem;
   --button-fw: 600;
   --alert-box-shadow: 0 0.125rem 0.25rem #00000013;
-  --nav-link-padding: var(--half-rem-padding) var(--nav-link-x-padding);
 }
 
 html {
@@ -522,7 +520,7 @@ h5 {
 
 .nav-link {
   display: block;
-  padding: var(--nav-link-padding);
+  padding: 0.5rem 1rem;
   font-size: var(--nav-link-font-size);
   color: var(--primary-color);
   text-decoration: none;
