@@ -42,6 +42,16 @@
   --y-padding: 0.5rem;
 
   --alert-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+  --focus-color: #00d0e480;
+  --shadow-color: #2133431f;
+  --white-color: #ffffff;
+  --black-color: #ffffff00;
+  --active-color: #d44326;
+  --transparent-color: #ffffff00;
+
+  --button-fw: 600;
+
 }
 
 html {font-size: 100%;}
@@ -654,5 +664,31 @@ h5 {
 
 .nav-with-bg{
   background-image: url(https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/heroes/knowledge-overview-bg-light.jpg=w1200)  !important ;
-  
+}
+
+.btn:active {
+  background: var(--active-color) !important;
+}
+
+.btn-outline {
+  border: 1px solid var(--primary-color) !important;
+  background-color: var(--white-color) !important;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
+
+.btn-outline:hover {
+  background: var(--primary-color);
+}
+
+.btn:disabled {
+  background-color: var(--secondary-color) !important;
+  cursor: default;
+  opacity: 0.4;
+}
+
+.btn-white-text {
+  color: var(--white-color) !important;
 }
